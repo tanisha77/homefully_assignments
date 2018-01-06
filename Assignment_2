@@ -1,0 +1,17 @@
+# calculate number of components in the list
+n <- lengths(delivery_id_conformations)
+a <- 0
+for(i in 1:n){
+  j <- i
+  for(j in j+1:n){
+    if(delivery_id_conformation[i] = delivery_id_conformation[j]){
+      a <- 1
+      break
+     }
+   }
+   if(a = 0){
+     print("The id of the lost drone is " delivery_id_conformation[i]
+     break
+     }
+  }
+  
