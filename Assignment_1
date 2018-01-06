@@ -1,0 +1,23 @@
+# assignment1
+i <- 0
+n <- 0
+k <- 0
+movie_time <- array(1:n)
+train_time <- as.integer(readLine(prompt="Enter length of the train journey:"))
+n <- as.integer(readLine(prompt = "Enter number of movies available"))
+for(i in 0:n){
+  movie_time[i] <- as.integer(readLine())
+  }
+ for(i in 0:n){
+   j <- i
+   for(j in j+1:n){
+     if(movie_time[i] + movie_time[j] <- train_time)
+       k <- 1
+       print("True")
+       break
+      }
+    }
+  }
+  if( k = 0){
+    print("False")
+}
